@@ -4,8 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  
-  assetPrefix: 'https://rrahate-godaddy.github.io/bingodaddy',
+
   
   
 }
