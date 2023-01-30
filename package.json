@@ -1,10 +1,12 @@
 {
   "name": "bingodaddy",
   "version": "0.1.0",
+  "homepage": "https://github.com/rrahate-godaddy/bingodaddy",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "predeploy": "npm run build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,5 +17,8 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
