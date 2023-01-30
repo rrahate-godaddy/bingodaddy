@@ -1,11 +1,11 @@
 {
   "name": "bingodaddy",
   "version": "0.1.0",
-  "homepage": "https://github.com/rrahate-godaddy/bingodaddy",
+  "homepage": "https://rrahate-godaddy.github.io/bingodaddy/",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "predeploy": "npm run build",
+    "deploy": "next build && next export && git subtree push --prefix out origin gh-pages",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
