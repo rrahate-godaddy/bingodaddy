@@ -1,6 +1,7 @@
 {
   "name": "bingodaddy",
   "version": "0.1.0",
+  "homepage" : "https://rrahate-godaddy.github.io/bingodaddy/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm run build && git add public/ && git commit -am \"Deploy gh-pages\" && git subtree push --prefix public origin gh-pages",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
