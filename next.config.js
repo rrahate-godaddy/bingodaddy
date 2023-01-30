@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: './',
-  trailingSlash: true,
   images: {
     unoptimized: true,
   },
+  
+  assetPrefix: 'https://rrahate-godaddy.github.io/bingodaddy',
+  
   
 }
 
