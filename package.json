@@ -1,21 +1,28 @@
 {
   "name": "bingodaddy",
   "version": "0.1.0",
-  "homepage" : "https://rrahate-godaddy.github.io/bingodaddy/",
+  "homepage": "https://rrahate-godaddy.github.io/bingodaddy/",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.16.0",
+    "immutability-helper": "^3.1.1",
+    "nanoid": "^4.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build && git add build/ && git commit -am \"Deploy gh-pages\" && git subtree push --prefix public origin gh-pages",
+    "deploy": "npm run build && git add build/ && git commit -am \"Deploy gh-pages\" && git subtree push --prefix build origin gh-pages",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
