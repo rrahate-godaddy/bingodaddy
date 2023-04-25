@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bingodaddy/static/css/main.a6648dce.css",
-    "main.js": "/bingodaddy/static/js/main.86683f5f.js",
+    "main.js": "/bingodaddy/static/js/main.5f2f4f91.js",
     "static/js/787.85358708.chunk.js": "/bingodaddy/static/js/787.85358708.chunk.js",
     "static/media/win-bg.gif": "/bingodaddy/static/media/win-bg.f2f1db991ddd8cf76ee2.gif",
     "static/media/logo.svg": "/bingodaddy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bingodaddy/index.html",
     "main.a6648dce.css.map": "/bingodaddy/static/css/main.a6648dce.css.map",
-    "main.86683f5f.js.map": "/bingodaddy/static/js/main.86683f5f.js.map",
+    "main.5f2f4f91.js.map": "/bingodaddy/static/js/main.5f2f4f91.js.map",
     "787.85358708.chunk.js.map": "/bingodaddy/static/js/787.85358708.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6648dce.css",
-    "static/js/main.86683f5f.js"
+    "static/js/main.5f2f4f91.js"
   ]
 }
