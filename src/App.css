@@ -47,11 +47,22 @@ html, body, #root {
   
 }
 
+.callsParentContainer {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
 .callsContainer {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  
 }
 
 
@@ -91,4 +102,15 @@ html, body, #root {
   align-items: center;
 }
 
+.called-num {
+  font-size: 2em;
+}
+
+.hoz-group {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}
 

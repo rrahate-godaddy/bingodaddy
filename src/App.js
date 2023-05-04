@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { FireApp, Auth }  from "./firebaseConfig/firebaseConfig.js"
-import logo from './logo.svg';
+import { ThemeProvider } from '@emotion/react';
+import { theme } from './components/utilities.js';
 import './App.css';
 import {
   createBrowserRouter,
@@ -12,9 +13,17 @@ import Home from './pages/home.js';
 import GameSession from './pages/gameSession.js';
 import GameEnd from './pages/gameEnd.js';
 import Form from './components/atoms/form.js';
+import Fireworks from './pages/confetti.js';
 
 
 function App() {
+
+  const [themeSel, setThemeSel] = useState(theme.light)
+  useEffect(() => {
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setThemeSel(theme.dark)
+    }
+  },[])
 
   const router = createHashRouter([
     {
@@ -35,7 +44,9 @@ function App() {
   ]);
  
   return (
-    <RouterProvider router={router} />
+    <ThemeProvider theme={themeSel}>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   );
   
 }
