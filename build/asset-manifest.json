@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bingodaddy/static/css/main.5b080f10.css",
+    "main.css": "/bingodaddy/static/css/main.38d889b0.css",
     "main.js": "/bingodaddy/static/js/main.66a6e6e3.js",
     "static/js/787.85358708.chunk.js": "/bingodaddy/static/js/787.85358708.chunk.js",
     "static/media/home.jpg": "/bingodaddy/static/media/home.8b83ad83296f278490d4.jpg",
@@ -8,12 +8,12 @@
     "static/media/rules.png": "/bingodaddy/static/media/rules.b62616528a3c4ea194eb.png",
     "static/media/logo.png": "/bingodaddy/static/media/logo.45cec5d82834df8a4938.png",
     "index.html": "/bingodaddy/index.html",
-    "main.5b080f10.css.map": "/bingodaddy/static/css/main.5b080f10.css.map",
+    "main.38d889b0.css.map": "/bingodaddy/static/css/main.38d889b0.css.map",
     "main.66a6e6e3.js.map": "/bingodaddy/static/js/main.66a6e6e3.js.map",
     "787.85358708.chunk.js.map": "/bingodaddy/static/js/787.85358708.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b080f10.css",
+    "static/css/main.38d889b0.css",
     "static/js/main.66a6e6e3.js"
   ]
 }
