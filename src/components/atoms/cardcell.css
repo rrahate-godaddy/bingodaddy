@@ -1,0 +1,27 @@
+.cell {
+    text-align: center; 
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    border: 2px solid #272343;
+    border-radius: 10px;
+    margin: 20px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #001e1d;
+}
+
+.cell-active{
+    background-color: #f9bc60;
+}
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+   }
